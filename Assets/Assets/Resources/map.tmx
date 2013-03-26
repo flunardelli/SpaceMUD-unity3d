@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="10" height="10" tilewidth="10" tileheight="10">
+ <objectgroup name="Map" width="10" height="10">
+  <object name="Laboratório de Robótica" x="40" y="90" width="10" height="10">
+   <properties>
+    <property name="audio" value=""/>
+    <property name="description" value="Laboratório utilizado para produção e manutenção de unidades automatas da nave.\nVá até sala de sistemas e assista o holograma do capitão"/>
+    <property name="image" value="intro"/>
+    <property name="status" value="open"/>
+    <property name="success" value="A Achiles V esta com sérios problemas, você foi ativado para ajudar a solucionar.\nInfelizmente o tempo e curto, então corra antes que o pior aconteca."/>
+    <property name="timer" value="60"/>
+   </properties>
+  </object>
+  <object name="Criogenia" x="50" y="80" width="10" height="10">
+   <properties>
+    <property name="audio" value=""/>
+    <property name="description" value="A tripulação da nave é mantida nessa sala por motivos de segurança."/>
+    <property name="image" value=""/>
+    <property name="provides" value="Chave da ala médica"/>
+    <property name="status" value="open"/>
+    <property name="success" value=""/>
+   </properties>
+  </object>
+  <object name="Ala Médica" x="30" y="80" width="10" height="10">
+   <properties>
+    <property name="audio" value=""/>
+    <property name="description" value="Quando ativa, servia como centro médico da nave"/>
+    <property name="image" value=""/>
+    <property name="provides" value="Chave da sala de comando"/>
+    <property name="requires" value="Chave da ala médica"/>
+    <property name="status" value="closed"/>
+    <property name="success" value="Porta foi aberta com sucesso.\nVá até a ponte de comando e pegue o manual para maiores informacões."/>
+    <property name="timer" value="60"/>
+   </properties>
+  </object>
+  <object name="Sala de Sistemas" x="40" y="80" width="10" height="10">
+   <properties>
+    <property name="audio" value=""/>
+    <property name="description" value="Todos os sistemas da nave são centralizados nessa sala"/>
+    <property name="image" value=""/>
+    <property name="provides" value="Holograma"/>
+    <property name="requires" value="Manual de acões para casos de crise."/>
+    <property name="status" value="open"/>
+    <property name="success" value=""/>
+   </properties>
+  </object>
+  <object name="Ponte de Comando" x="30" y="70" width="10" height="10">
+   <properties>
+    <property name="audio" value=""/>
+    <property name="description" value="Sala de comando da nave"/>
+    <property name="image" value=""/>
+    <property name="provides" value="Manual de acões para casos de crise."/>
+    <property name="requires" value="Chave da sala de comando"/>
+    <property name="status" value="closed"/>
+    <property name="success" value="Manual foi encontrado"/>
+    <property name="timer" value="60"/>
+   </properties>
+  </object>
+  <object name="Corredor de Acesso" x="30" y="60" width="10" height="10">
+   <properties>
+    <property name="description" value="Apenas um corredor"/>
+    <property name="status" value="open"/>
+   </properties>
+  </object>
+  <object name="Corredor de Acesso" x="30" y="50" width="10" height="10">
+   <properties>
+    <property name="description" value="Apenas um corredor"/>
+    <property name="status" value="open"/>
+   </properties>
+  </object>
+  <object name="Sala de Hologramas" x="40" y="50" width="10" height="10">
+   <properties>
+    <property name="description" value="Sala contendo arquivo histórico da nave."/>
+    <property name="provides" value="Credencial"/>
+    <property name="requires" value="Holograma"/>
+    <property name="status" value="closed"/>
+    <property name="success" value="Mensagem do capitão: Tivemos que abandonar a nave rapidamente pois a energia estava se esgotando.\nPrecisamos ligar o reator."/>
+    <property name="timer" value="60"/>
+   </properties>
+  </object>
+  <object name="Corredor de Acesso" x="60" y="80" width="10" height="10">
+   <properties>
+    <property name="description" value="Apenas um corredor"/>
+    <property name="status" value="open"/>
+   </properties>
+  </object>
+  <object name="Corredor de Acesso" x="60" y="70" width="10" height="10">
+   <properties>
+    <property name="description" value="Apenas um corredor"/>
+    <property name="status" value="open"/>
+   </properties>
+  </object>
+  <object name="Sala de Manutenção" x="60" y="60" width="10" height="10">
+   <properties>
+    <property name="status" value="closed"/>
+   </properties>
+  </object>
+  <object name="Sala do Reator" x="60" y="50" width="10" height="10">
+   <properties>
+    <property name="description" value="Sala de controle energia contendo o reator nuclear."/>
+    <property name="image" value=""/>
+    <property name="provides" value=""/>
+    <property name="requires" value="Credencial"/>
+    <property name="status" value="closed"/>
+    <property name="success" value="A energia foi restabelecida por um período maior."/>
+    <property name="timer" value="300"/>
+   </properties>
+  </object>
+  <object name="Corredor de Acesso" x="70" y="70" width="10" height="10">
+   <properties>
+    <property name="description" value="Apenas um corredor"/>
+    <property name="status" value="open"/>
+   </properties>
+  </object>
+  <object name="Depósito" x="20" y="70" width="10" height="10">
+   <properties>
+    <property name="status" value="open"/>
+   </properties>
+  </object>
+  <object name="Sala de Despressurização" x="80" y="70" width="10" height="10">
+   <properties>
+    <property name="provides" value="Credencial Superior"/>
+    <property name="requires" value="Credencial"/>
+    <property name="status" value="closed"/>
+    <property name="success" value="Uma porta para o espaço foi aberta.\nToda a energia restante foi direcionada para controlar a atmosfera da nave."/>
+    <property name="timer" value="-60"/>
+   </properties>
+  </object>
+  <object name="Sala do Motor" x="50" y="50" width="10" height="10">
+   <properties>
+    <property name="status" value="closed"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

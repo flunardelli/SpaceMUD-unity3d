@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="10" height="10" tilewidth="10" tileheight="10">
+ <objectgroup name="Map" width="10" height="10">
+  <object name="Inicio" x="50" y="70" width="10" height="10"/>
+  <object name="Sala de Operações" x="50" y="60" width="10" height="10"/>
+  <object name="Laboratório" x="40" y="60" width="10" height="10"/>
+  <object name="Sala de Comando" x="60" y="60" width="10" height="10"/>
+  <object name="Reator" x="70" y="60" width="10" height="10">
+   <properties>
+    <property name="desc" value="Sala do reator"/>
+   </properties>
+  </object>
+  <object name="Lab1" x="40" y="50" width="10" height="10"/>
+  <object name="Lab2" x="40" y="40" width="10" height="10"/>
+  <object name="Ponte" x="50" y="40" width="10" height="10"/>
+ </objectgroup>
+</map>
