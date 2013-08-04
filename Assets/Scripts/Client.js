@@ -91,14 +91,14 @@ function LoginWindow (windowID : int) {
  	GUI.Label (Rect (10, 50, 100, 20), "Login");
 	login = GUI.TextField (Rect (100, 50, 180, 20), login, 25);
 	
-	GUI.Label (Rect (10, 80, 100, 20), "Digite Senha");
+	GUI.Label (Rect (10, 80, 100, 20), "Password");
 	pass = GUI.PasswordField (Rect (100, 80, 180, 20), pass, 25);
 	
-	GUI.Label (Rect (10, 110, 100, 20), "Servidor");
+	GUI.Label (Rect (10, 110, 100, 20), "Server");
 	remoteIP = GUI.TextField (Rect (100, 110, 100, 20), remoteIP, 25);
 	remotePort = GUI.TextField (Rect (210, 110, 70, 20), remotePort, 25);
 	
-    if (GUI.Button (Rect (180,150,100,20), "Conectar")){
+    if (GUI.Button (Rect (180,150,100,20), "Connect")){
     	if (login.Length >= 1){
     		Run(NetworkCmds.conectar.ToString() + " " + remoteIP + " " + remotePort);        	
         } else {
@@ -108,7 +108,7 @@ function LoginWindow (windowID : int) {
     
     if (loginInvalid){
     	GUI.color = new Color(255,0,0,1);
-        GUI.Label (Rect (10, 170, 100, 20), "Login invalido");    
+        GUI.Label (Rect (10, 170, 100, 20), "Invalid login");    
     }
   
    //GUI.FocusControl ("Login");

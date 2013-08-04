@@ -15,3 +15,8 @@ Team
 -------
 * Fernando Lunardelli - @flunardelli
 * Guilherme Costa
+
+Screenshots
+-------
+![Main screen](https://raw.github.com/flunardelli/SpaceMUD-unity3d/master/images/main.png)
+![Gameplay](https://raw.github.com/flunardelli/SpaceMUD-unity3d/master/images/gameplay.png)

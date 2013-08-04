@@ -1,0 +1,68 @@
+Initialize engine version: 4.2.0f4 (38efbd14869d)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [igdumdx32.dll 8.14.10.1930]
+    Renderer: Mobile Intel(R) 965 Express Chipset Family
+    Vendor:   Intel
+    VRAM:     64 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=0 NativeShadow=1 DF16=0 DF24=0 INTZ=0 RAWZ=0 NULL=0 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\lumea\Documents\GitHub\SpaceMUD-unity3d\server_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\lumea\Documents\GitHub\SpaceMUD-unity3d\server_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\lumea\Documents\GitHub\SpaceMUD-unity3d\server_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\lumea\Documents\GitHub\SpaceMUD-unity3d\server_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.098 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1280x800 60Hz; virtual: 1280x800 at 0,0
+Platform assembly: C:\Users\lumea\Documents\GitHub\SpaceMUD-unity3d\server_Data\Managed\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\lumea\Documents\GitHub\SpaceMUD-unity3d\server_Data\Managed\Boo.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\lumea\Documents\GitHub\SpaceMUD-unity3d\server_Data\Managed\System.Core.dll (this message is harmless)
+==> Local IP/port is 192.168.25.7/25000
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+SendTimer: 120 p: 1
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+newx: 40 newy: 80
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+ -> Laboratório de Robótica - open
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+ -> Criogenia - open
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+ -> Ala Médica - closed
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+ -> Sala de Sistemas - open
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+newx: 50 newy: 80
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+ -> Laboratório de Robótica - open
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+ -> Criogenia - open
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Game over
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+No objects for the given player ID were deleted 1
+ 
+(Filename:  Line: 1369)
+

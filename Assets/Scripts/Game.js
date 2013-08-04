@@ -5,26 +5,26 @@ enum Moves { norte, sul, leste, oeste }
 enum GameStatus { Disconnected, Connected, Login, GameOver, Complete }
 enum ClientFunctions { Console, SetCurrentPosition, SetRoomStatus, SetTimer, SetGameStatus }
 
-var MSG_INVALID_MOVE = "Esta movimentação, não é possível.";	
-var MSG_UNKNOW_CMD = "Comando inválido";
-var MSG_AVAIL_ROOMS = "Salas disponiveis";
-var MSG_ROOM_LOCKED = "A sala está fechada";
-var MSG_ITEM_PICKED = "Item adquido";
-var MSG_ITEM_DROPPED = "Item abandonado";
-var MSG_ITEM_INVALID = "Item invalido";	
-var MSG_ITEM_CURRENT = "Item atual";	
-var MSG_ITEM_USED = "Item foi utilizado";
-var MSG_ITEM_NOTUSED = "Item não pode ser utilizado";
-var MSG_ROOM_NOITEM = "Sala não possui itens";
+var MSG_INVALID_MOVE = "Invalid movement.";	
+var MSG_UNKNOW_CMD = "Invalid command";
+var MSG_AVAIL_ROOMS = "Available rooms";
+var MSG_ROOM_LOCKED = "Locked room";
+var MSG_ITEM_PICKED = "Item acquired";
+var MSG_ITEM_DROPPED = "Dropped item";
+var MSG_ITEM_INVALID = "Invalid item";	
+var MSG_ITEM_CURRENT = "Current item";	
+var MSG_ITEM_USED = "Item was used";
+var MSG_ITEM_NOTUSED = "Item cant be used";
+var MSG_ROOM_NOITEM = "There is no item in this room ";
 				
-var MSG_ITEM_ROOMFULL = "Esta sala esta cheia. Procure outra sala para largar este item.";	
-var MSG_PLAYER_NOITEM = "Nenhum item";
-var MSG_ROOM_THEREISITEM = "Existe o item";
-var MSG_PLAYER_INVENTORYFULL = "Não é possível pegar mais de um item.";
-var MSG_ROOM_PLAYERS = "Existe(m) outro(s) nesta sala";
-var MSG_PLAYER_MOVED = "Moveu-se em direção";
+var MSG_ITEM_ROOMFULL = "This is room is full. Search another room to drop this item.";	
+var MSG_PLAYER_NOITEM = "No item";
+var MSG_ROOM_THEREISITEM = "There is an item";
+var MSG_PLAYER_INVENTORYFULL = "Can not grap more items";
+var MSG_ROOM_PLAYERS = "There is anyone else in this room";
+var MSG_PLAYER_MOVED = "Moved";
 
-var MSG_PLAYER_WELCOME = "Iniciando";
+var MSG_PLAYER_WELCOME = "Starting";
 
 var MSG_HELP = "Para movimentar-se no mapa, clique em uma das setas e aperte <enter>.\nPara examinar uma sala, clique em examinar e aperte <enter> ou digite “examinar” no console e aperte <enter>.\nPara pegar um item na sala clique em pegar ou digite “pegar”. Em seguida, digite o nome do item desejado e aperte <enter>.\nPara largar um item, digite “largar” ou clique no botão largar. Em seguida digite o nome do item que deseja largar e aperte <enter>.\nPara verificar qual item esta carregando, digite “item” ou clique em Item e aperte <enter>.\nPara utilizar um item, digite “usar” ou clique no botão usar e aperte <enter>.\nPara falar com outros jogadores que estão na mesma sala, digite “falar” ou selecione o botão falar, depois digite o que desejar e aperte <enter>.\nPara falar com um jogador em particular, digite “cochichar” ou aperte o botão cochichar, logo em seguida digite o nome do jogador e depois a mensagem que deseja enviar e aperte <enter>.";		
 var players = new Array();

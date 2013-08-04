@@ -1,0 +1,138 @@
+Initialize engine version: 4.2.0f4 (38efbd14869d)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [igdumdx32.dll 8.14.10.1930]
+    Renderer: Mobile Intel(R) 965 Express Chipset Family
+    Vendor:   Intel
+    VRAM:     64 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=0 NativeShadow=1 DF16=0 DF24=0 INTZ=0 RAWZ=0 NULL=0 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\lumea\Documents\GitHub\SpaceMUD-unity3d\win32\client_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\lumea\Documents\GitHub\SpaceMUD-unity3d\win32\client_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\lumea\Documents\GitHub\SpaceMUD-unity3d\win32\client_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\lumea\Documents\GitHub\SpaceMUD-unity3d\win32\client_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.270 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1280x800 60Hz; virtual: 1280x800 at 0,0
+Platform assembly: C:\Users\lumea\Documents\GitHub\SpaceMUD-unity3d\win32\client_Data\Managed\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\lumea\Documents\GitHub\SpaceMUD-unity3d\win32\client_Data\Managed\Boo.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\lumea\Documents\GitHub\SpaceMUD-unity3d\win32\client_Data\Managed\System.Core.dll (this message is harmless)
+GameStatus: Disconnected
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Connection 127.0.0.1 25000
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Connected to server
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Sending to server conectar commander
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+ReturnMsg -> SetCurrentPosition|40|90|open
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+ReturnMsg -> SetTimer|120
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+ReturnMsg -> Console|			                             .            .
+			                          ,A`              `A,
+			                        ,AV                  VA,
+			                       ,AV'                  `VA,
+			                      ,AXX                    XXA,
+			                      NXXX    .,OXXXXXXA,.    XXXH
+			                     AXXXA. ,AXXXXXXXXXXXXA, ,AXXXA
+			                     VXXXXA `VXV"'    `"XV'  AXXXXV
+			                  ,AXXXXXXXA, '         '  ,AXXXXXXXA,
+			                ,AXXXXXXXXXXXA,          ,AXXXXXXXXXXXA,
+			              ,AXXXXXXXXXXXXXXXXXXX  XXXXXXXXXXXXXXXXXXXA,
+			             ,AXXV"'  ,. `""VXXXV'    `VXXXV""' .,  `"VXXA,
+			            ,AXV"     AXXX    "VV      VV"    XXXA     "VXA,
+			            AX'       XXXX       A,..,A       XXXX       `XA
+			            V'        "VXA,      `XXXX'      ;AXV:        `V
+			            '          VXXA,     :XXXX:     ,AXXV          '
+			                       `VXXX,    ,XXXX,    ,XXXV'
+			                        `VXXXA.  AXXXXA  .AXXXV'
+			                          `VXV` AXXXXXXA `VXV'
+			                            ' ,AXXXXXXXXA, `
+			                            ,AXXXXXXXXXXXXA,
+			                  `VaaaaaaAAXXXXXXV""VXXXXXXAAaaaaaaV'
+			                    "VXXXXXXXXXV"      "VXXXXXXXXXV"
+			                       """"""              """"""
+Iniciando commander
+A Achiles V esta com sérios problemas, você foi ativado para ajudar a solucionar.
+Infelizmente o tempo e curto, então corra antes que o pior aconteca.
+
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Sending to server examinar
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+ReturnMsg -> Console|Laboratório de Robótica
+Laboratório utilizado para produção e manutenção de unidades automatas da nave.
+Vá até sala de sistemas e assista o holograma do capitão
+Sala não possui itens
+
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Sending to server ajuda
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+ReturnMsg -> Console|Para movimentar-se no mapa, clique em uma das setas e aperte <enter>.
+Para examinar uma sala, clique em examinar e aperte <enter>.
+Para pegar um item na sala clique em pegar [nome do item] <enter>.
+ 
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Sending to server norte
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+ReturnMsg -> SetCurrentPosition|40|80|open
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+ReturnMsg -> Console|Mensagem de commander: Moveu-se em direção norte
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+ReturnMsg -> Console|
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Sending to server leste
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+ReturnMsg -> SetCurrentPosition|50|80|open
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+ReturnMsg -> Console|Mensagem de commander: Moveu-se em direção leste
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+ReturnMsg -> Console|
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+ReturnMsg -> SetGameStatus|3
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Disconnect
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
