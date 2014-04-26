@@ -17,7 +17,7 @@ var MSG_ITEM_USED = "Item was used";
 var MSG_ITEM_NOTUSED = "Item cant be used";
 var MSG_ROOM_NOITEM = "There is no item in this room ";
 				
-var MSG_ITEM_ROOMFULL = "This is room is full. Search another room to drop this item.";	
+var MSG_ITEM_ROOMFULL = "This room is full. Search another room to drop this item.";	
 var MSG_PLAYER_NOITEM = "No item";
 var MSG_ROOM_THEREISITEM = "There is an item";
 var MSG_PLAYER_INVENTORYFULL = "Can not grap more items";
